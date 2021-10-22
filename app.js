@@ -21,7 +21,7 @@ console.log("this is external js");
 
 
 // (Excercise of 20 oct)
-var data = "Student Data"
+var data = "Student Data by JS"
 var studname="Ram";
 var studclass ="5th";
 var address = "XYZ";
@@ -33,3 +33,12 @@ document.querySelector(".Address").innerHTML= address;
 
 var result= document.getElementById('data').innerHTML;
 alert("result "+result);
+
+var a="shyam";
+var b ="5th";
+var c= "XYZ";
+
+
+document.querySelector(".a").innerHTML= a;
+document.querySelector("#b").innerHTML= b;
+document.querySelector(".c").innerHTML= c;
